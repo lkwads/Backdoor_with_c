@@ -1,3 +1,11 @@
+//Lkwads 
+//Backdoor project using c Produced by lkwads
+// I hope you like this project
+
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h> /* pour exit */
 #include <sys/types.h>
@@ -135,3 +143,13 @@ uint64_t get_file_size(const char *filename){
         return 0;
     return (uint64_t)st.st_size;
 }
+
+
+
+
+
+
+
+//Lkwads 
+//Backdoor project using c Produced by lkwads
+// I hope you like this project
